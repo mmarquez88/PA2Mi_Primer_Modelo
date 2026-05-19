@@ -1,0 +1,17 @@
+ # PROMPT:
+
+ Genera una pagina web en streamlit desde github. Esta pagina contiene un modelo entrenado para clasificar calidad de vino:
+3, 4, 5, 6, 7, 8 y 9 (si la calidad es mayor a 7 que salga un mensaje de "excelente", mayor a 4 y menor que 8 sea "regular"
+y por debajo de 5 sea "baja". Tengo dos modelos generados con joblib, uno se llama logistic_regression_model.pkl y el otro se
+llama Ramdon_Forest_model.pkl, ambos estan almacenados en github en una carpeta llamada model1. Quiero que el usuario ingrese
+las medidas requeridas para las columnas: 
+
+ fixed_acidity
+
+ volatile_acidity
+
+ citric_acid 
+ 
+ residual_sugar
+
+  Tener en cuenta que el target se llama "quality". Finalmente agrega un boton para obtener la predicción.
