@@ -13,7 +13,7 @@ st.write("Ingrese las características del vino para predecir su calidad.")
 # CARGAR MODELOS
 # =========================
 logistic_model = joblib.load("model1/logistic_regression_model.pkl")
-random_forest_model = joblib.load("model1/Ramdon_Forest_model.pkl")
+random_forest_model = joblib.load("model1/Random_Forest_model.pkl")
 
 # =========================
 # SELECCIONAR MODELO
