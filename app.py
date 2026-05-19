@@ -87,3 +87,8 @@ if st.button("Obtener Predicción"):
 # =========================
 st.markdown("---")
 st.markdown("### Elaborado por Marcelo Marquez")
+
+st.link_button(
+    "📘 Ver Proyecto en Google Colab",
+    "https://colab.research.google.com/drive/1To7mGt8Gu1G6RT2UNB4uZ41rD2DHZwAE?usp=sharing"
+)
